@@ -26,7 +26,9 @@
 
 **Eutektoidos átalakulás:**
 
-$$\gamma_{(0{,}8\%\,C)} \;\longrightarrow\; \alpha_{(0{,}02\%\,C)} + \mathrm{Fe_3C}_{(6{,}67\%\,C)}$$
+$$\gamma \;\longrightarrow\; \alpha + \mathrm{Fe_3C}$$
+
+ahol: $\gamma$ (0,8% C) $\rightarrow$ $\alpha$ (0,02% C) + $\mathrm{Fe_3C}$ (6,67% C).
 
 **Vasoxid redukciója a nagyolvasztóban:**
 

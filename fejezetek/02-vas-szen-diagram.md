@@ -57,7 +57,9 @@ A vas hőmérséklettől függően **más-más rácsszerkezetet** vesz fel – e
 
 Lassan hűtve, **0,8% C**-nál és **723 °C**-on:
 
-$$\gamma_{(0{,}8\%\,C)} \;\longrightarrow\; \alpha_{(0{,}02\%\,C)} + \mathrm{Fe_3C}_{(6{,}67\%\,C)}$$
+$$\gamma \;\longrightarrow\; \alpha + \mathrm{Fe_3C}$$
+
+ahol az összetételek: $\gamma$ (0,8% C) $\rightarrow$ $\alpha$ (0,02% C) + $\mathrm{Fe_3C}$ (6,67% C).
 
 Vagyis az ausztenit egyszerre bomlik **ferritre + cementitre**, és ezek finom lemezekként egymás mellé rendeződnek → ez a **perlit**.
 
