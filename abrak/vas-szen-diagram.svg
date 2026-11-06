@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">A vas–szén (Fe–Fe₃C) metastabil állapotábra</text>
+
+  <!-- axes -->
+  <line x1="90" y1="500" x2="700" y2="500" stroke="#333" stroke-width="2"/>
+  <line x1="90" y1="500" x2="90" y2="60" stroke="#333" stroke-width="2"/>
+  <text x="395" y="540" text-anchor="middle" font-size="14" fill="#333">Széntartalom (tömeg %)</text>
+  <text x="30" y="290" text-anchor="middle" font-size="14" fill="#333" transform="rotate(-90 30 290)">Hőmérséklet (°C)</text>
+
+  <!-- x ticks: 0 at 90px, 6.67% at 700px  => 91.5 px per % -->
+  <g font-size="11" fill="#555" text-anchor="middle">
+    <line x1="90"  y1="500" x2="90"  y2="505" stroke="#333"/><text x="90"  y="518">0</text>
+    <line x1="164" y1="500" x2="164" y2="505" stroke="#333"/><text x="164" y="518">0,8</text>
+    <line x1="291" y1="500" x2="291" y2="505" stroke="#333"/><text x="291" y="518">2,14</text>
+    <line x1="485" y1="500" x2="485" y2="505" stroke="#333"/><text x="485" y="518">4,3</text>
+    <line x1="700" y1="500" x2="700" y2="505" stroke="#333"/><text x="700" y="518">6,67</text>
+  </g>
+
+  <!-- y ticks: 1600°C at 60px, 0°C at 500px -> 0.275 px per °C -->
+  <g font-size="11" fill="#555" text-anchor="end">
+    <line x1="85" y1="60"  x2="90" y2="60"  stroke="#333"/><text x="80" y="64">1600</text>
+    <line x1="85" y1="183" x2="90" y2="183" stroke="#333"/><text x="80" y="187">1147</text>
+    <line x1="85" y1="300" x2="90" y2="300" stroke="#333"/><text x="80" y="304">723</text>
+    <line x1="85" y1="500" x2="90" y2="500" stroke="#333"/><text x="80" y="504">0</text>
+  </g>
+
+  <!-- eutectoid line (723°C) -->
+  <line x1="90" y1="300" x2="700" y2="300" stroke="#d08700" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="600" y="294" font-size="11" fill="#d08700">A₁ = 723 °C (eutektoidos vonal)</text>
+
+  <!-- eutectic line (1147°C) -->
+  <line x1="291" y1="183" x2="700" y2="183" stroke="#8e44ad" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="470" y="177" font-size="11" fill="#8e44ad">1147 °C (eutektikus vonal)</text>
+
+  <!-- A3 line (GS): from 911°C(0%) down to 723°C(0.8%) -->
+  <line x1="90" y1="250" x2="164" y2="300" stroke="#2e7d32" stroke-width="2"/>
+  <text x="96" y="243" font-size="11" fill="#2e7d32">A₃ (GS)</text>
+
+  <!-- Acm line (ES): from 723°C(0.8%) up to 1147°C(2.14%) -->
+  <line x1="164" y1="300" x2="291" y2="183" stroke="#2e7d32" stroke-width="2"/>
+  <text x="230" y="235" font-size="11" fill="#2e7d32">A_cm (ES)</text>
+
+  <!-- solidus/liquidus schematic -->
+  <path d="M90,120 L291,183 L485,183" fill="none" stroke="#1565c0" stroke-width="1.5"/>
+  <path d="M90,90 L485,183 L700,120" fill="none" stroke="#c62828" stroke-width="1.5"/>
+  <text x="120" y="82" font-size="11" fill="#c62828">likvidusz</text>
+  <text x="120" y="135" font-size="11" fill="#1565c0">szolidusz</text>
+
+  <!-- vertical boundaries -->
+  <line x1="164" y1="300" x2="164" y2="500" stroke="#bbb" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="291" y1="183" x2="291" y2="500" stroke="#bbb" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- phase region labels -->
+  <text x="130" y="230" font-size="12" fill="#2e7d32" font-weight="bold">γ ausztenit</text>
+  <text x="105" y="400" font-size="12" fill="#00695c" font-weight="bold">α+perlit</text>
+  <text x="200" y="400" font-size="12" fill="#5d4037" font-weight="bold">perlit+cementit</text>
+  <text x="340" y="250" font-size="12" fill="#8e44ad" font-weight="bold">ausztenit+ledeburit</text>
+  <text x="420" y="400" font-size="12" fill="#5d4037" font-weight="bold">perlit+ledeburit+cementit</text>
+  <text x="300" y="470" font-size="11" fill="#777">— ACÉLOK —</text>
+  <text x="490" y="470" font-size="11" fill="#777">— ÖNTÖTTVASAK —</text>
+
+  <!-- key points -->
+  <g fill="#c62828">
+    <circle cx="164" cy="300" r="4"/>
+    <circle cx="291" cy="183" r="4"/>
+    <circle cx="485" cy="183" r="4"/>
+  </g>
+  <text x="150" y="315" font-size="10" fill="#c62828">S (eutektoid, 0,8% C)</text>
+  <text x="300" y="175" font-size="10" fill="#c62828">E (2,14% C)</text>
+  <text x="470" y="200" font-size="10" fill="#c62828">C (eutektikus, 4,3% C)</text>
+</svg>

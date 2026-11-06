@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="720" height="300" fill="#ffffff"/>
+  <text x="360" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">A grafit alakja az öntöttvasakban</text>
+
+  <!-- panel 1: lemezgrafit -->
+  <rect x="30" y="50" width="200" height="160" fill="#f4f4f4" stroke="#999"/>
+  <g stroke="#222" stroke-width="2" fill="none">
+    <path d="M55,80 Q90,95 120,78"/>
+    <path d="M70,120 Q110,135 150,115"/>
+    <path d="M45,160 Q95,175 140,155"/>
+    <path d="M110,90 Q140,110 170,95"/>
+    <path d="M60,185 Q100,195 155,180"/>
+  </g>
+  <text x="130" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Lemezgrafit</text>
+  <text x="130" y="248" text-anchor="middle" font-size="10" fill="#c62828">szürkeöntvény</text>
+  <text x="130" y="263" text-anchor="middle" font-size="10" fill="#555">rideg, jó rezgéscsillapítás</text>
+
+  <!-- panel 2: gömbgrafit -->
+  <rect x="260" y="50" width="200" height="160" fill="#f4f4f4" stroke="#999"/>
+  <g fill="#222">
+    <circle cx="300" cy="90" r="9"/>
+    <circle cx="360" cy="80" r="11"/>
+    <circle cx="410" cy="110" r="8"/>
+    <circle cx="320" cy="140" r="12"/>
+    <circle cx="390" cy="160" r="9"/>
+    <circle cx="340" cy="185" r="8"/>
+    <circle cx="420" cy="175" r="7"/>
+  </g>
+  <text x="360" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Gömbgrafit</text>
+  <text x="360" y="248" text-anchor="middle" font-size="10" fill="#2e7d32">gömbgrafitos öntvény</text>
+  <text x="360" y="263" text-anchor="middle" font-size="10" fill="#555">szívós, nagy szilárdság</text>
+
+  <!-- panel 3: tempergrafit -->
+  <rect x="490" y="50" width="200" height="160" fill="#f4f4f4" stroke="#999"/>
+  <g fill="#222">
+    <path d="M530,85 l10,-6 l6,10 l-4,9 l-11,2 l-6,-9 z"/>
+    <path d="M590,95 l12,-4 l5,11 l-6,9 l-12,0 l-4,-11 z"/>
+    <path d="M550,140 l11,-7 l9,8 l-2,11 l-11,4 l-8,-8 z"/>
+    <path d="M610,150 l10,-5 l7,9 l-3,10 l-11,2 l-6,-9 z"/>
+    <path d="M560,185 l10,-5 l7,8 l-3,9 l-10,1 z"/>
+  </g>
+  <text x="590" y="230" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">Tempergrafit</text>
+  <text x="590" y="248" text-anchor="middle" font-size="10" fill="#d08700">temperöntvény</text>
+  <text x="590" y="263" text-anchor="middle" font-size="10" fill="#555">pehely/bolyhos, jó szívósság</text>
+</svg>

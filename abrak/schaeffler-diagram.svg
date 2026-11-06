@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="560" fill="#ffffff"/>
+  <text x="360" y="28" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">Schaeffler-diagram</text>
+  <text x="360" y="48" text-anchor="middle" font-size="12" fill="#555">a hegfém/öntöttszövet becslése Cr- és Ni-ekvivalens alapján</text>
+
+  <!-- axes -->
+  <line x1="90" y1="500" x2="680" y2="500" stroke="#333" stroke-width="2"/>
+  <line x1="90" y1="500" x2="90" y2="70" stroke="#333" stroke-width="2"/>
+
+  <!-- x axis label & ticks (Cr-eq 0..40) -->
+  <text x="385" y="545" text-anchor="middle" font-size="13" fill="#333">Króm-ekvivalens  Cr_eq = %Cr + %Mo + 1,5·%Si + 0,5·%Nb</text>
+  <g font-size="11" fill="#555" text-anchor="middle">
+    <text x="90"  y="518">0</text>
+    <text x="238" y="518">10</text>
+    <text x="385" y="518">20</text>
+    <text x="533" y="518">30</text>
+    <text x="680" y="518">40</text>
+  </g>
+  <!-- y axis label & ticks (Ni-eq 0..32) -->
+  <text x="34" y="285" text-anchor="middle" font-size="13" fill="#333" transform="rotate(-90 34 285)">Nikkel-ekvivalens  Ni_eq = %Ni + 30·%C + 0,5·%Mn</text>
+  <g font-size="11" fill="#555" text-anchor="end">
+    <text x="82" y="504">0</text>
+    <text x="82" y="396">8</text>
+    <text x="82" y="289">16</text>
+    <text x="82" y="181">24</text>
+    <text x="82" y="74">32</text>
+  </g>
+
+  <!-- Austenite region (A) top-left-ish high Ni -->
+  <path d="M90,70 L90,230 L300,500 L140,500 L90,340 Z" fill="#cfe8ff" stroke="#1565c0" stroke-width="1"/>
+  <text x="150" y="150" font-size="16" font-weight="bold" fill="#1565c0">A</text>
+  <text x="120" y="172" font-size="11" fill="#1565c0">ausztenit</text>
+
+  <!-- Martensite region (M) lower-left -->
+  <path d="M90,340 L140,500 L300,500 L210,380 L90,230 Z" fill="#ffd9d9" stroke="#c62828" stroke-width="1"/>
+  <text x="170" y="430" font-size="16" font-weight="bold" fill="#c62828">M</text>
+  <text x="150" y="450" font-size="11" fill="#c62828">martenzit</text>
+
+  <!-- Ferrite region (F) right -->
+  <path d="M520,70 L680,70 L680,500 L470,500 Z" fill="#d7f5dc" stroke="#2e7d32" stroke-width="1"/>
+  <text x="600" y="300" font-size="16" font-weight="bold" fill="#2e7d32">F</text>
+  <text x="575" y="320" font-size="11" fill="#2e7d32">ferrit</text>
+
+  <!-- mixed A+F -->
+  <text x="430" y="150" font-size="13" font-weight="bold" fill="#00695c">A+F</text>
+  <!-- mixed A+M -->
+  <text x="300" y="350" font-size="13" font-weight="bold" fill="#8e44ad">A+M</text>
+  <!-- mixed M+F -->
+  <text x="420" y="430" font-size="13" font-weight="bold" fill="#b7791f">M+F</text>
+  <!-- A+M+F -->
+  <text x="355" y="300" font-size="12" font-weight="bold" fill="#555">A+M+F</text>
+
+  <!-- boundary lines (schematic) -->
+  <path d="M90,230 L300,500" fill="none" stroke="#1565c0" stroke-width="1.5"/>
+  <path d="M90,70 L520,440" fill="none" stroke="#1565c0" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M520,70 L300,500" fill="none" stroke="#2e7d32" stroke-width="1.5"/>
+
+  <!-- example point for 18/8 stainless -->
+  <circle cx="358" cy="330" r="5" fill="#000"/>
+  <text x="368" y="326" font-size="11" fill="#000">pl. 18/8 (X5CrNi18-10) → ausztenites tartomány közelében</text>
+</svg>
